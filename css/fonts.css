@@ -1,0 +1,33 @@
+/*@font-face {
+    font-family: 'HarBrains_Mono';
+    font-display: swap;
+    src: url('/fonts/HarBrains_Mono.ttf') format("truetype");  
+  }
+*/
+/* 引入全局字体（meow.otf） */
+@font-face {
+  font-family: 'HarBrains_Mono';
+  src: url('/fonts/HarBrains_Mono.ttf') format("truetype");    /* otf字体，ttf把format改成truetype */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 引入代码字体（shaonv.ttf） */
+@font-face {
+  font-family: 'HarBrains_Mono';
+  src: url('/fonts/HarBrains_Mono.ttf') format("truetype");    /* ttf字体，otf把format改成opentype */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 设置全局字体 */
+body {
+  font-family: 'HarBrains_Mono', "Georgia", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+/* 设置代码字体 */
+code, pre {
+  font-family: 'HarBrains_Mono', "Fira Code", "Courier", monospace;
+  font-size: 16px;
+}
